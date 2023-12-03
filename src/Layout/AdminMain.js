@@ -7,6 +7,8 @@ import Dashboard from '../Component/Dashboard';
 import { ActiveRouteProvider } from '../Component/ActiveRouteContext';
 
 const AdminMain = () => {
+  const dynamicMenuData = JSON.parse(sessionStorage.getItem('routes'));
+ 
 
   if (dynamicMenuData == null) {
     // If the user is not authenticated, navigate to the login page

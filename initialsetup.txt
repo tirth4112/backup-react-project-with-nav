@@ -1,0 +1,107 @@
+
+=>npm i 
+=>npm install
+=>npm start
+
+
+set in login page 2 session 
+1) routes format:-
+
+// [
+//   {
+//     "path": "Product",
+//     "componentPath": "/page/Product",
+//     "isActive": true,
+//     "authRequired": true,
+//     "label": "Product",
+//     "icon": "fas fa-tachometer-alt",
+
+//     "children": [
+//       {
+//         "path": "ProductDetail",
+//         "componentPath": "/SubPage/ProductDetail",
+//         "isActive": true,
+//         "authRequired": true,
+        
+//         "label": "ProductDetail",
+//     "icon": "fas fa-tachometer-alt"
+//     , "children": [
+//       {
+//         "path": "Productsingle",
+//         "componentPath": "/SubPage/SaleDetail",
+//         "isActive": true,
+//         "authRequired": true,
+//         "children": null,
+//         "label": "ProductSingle",
+//     "icon": "fas fa-tachometer-alt"
+
+//       }
+//     ]
+
+//       }
+//     ]
+//   },
+//   {
+//     "path": "Sale",
+//     "componentPath": "/page/Sale",
+//     "isActive": true,
+//     "label": "Sale",
+//     "icon": "fas fa-tachometer-alt",
+
+//     "authRequired": true,
+//     "children": [
+//       {
+//         "path": "SaleDetail",
+//         "componentPath": "/SubPage/SaleDetail",
+//         "isActive": true,
+//         "authRequired": true,
+//         "children": null,
+//         "label": "Saledetail",
+//     "icon": "fas fa-tachometer-alt"
+
+//       }
+//     ]
+//   },
+//   {
+//     "path": "Purchase",
+//     "componentPath": "/page/Purchase",
+//     "isActive": true,
+//     "authRequired": true,
+//     "children": null
+//     ,"label": "Purchase"
+// ,    "icon": "fas fa-tachometer-alt"
+
+//   },
+//   {
+//     "path": "",
+//     "componentPath": "/page/Dash",
+//     "isActive": true,
+//     "authRequired": true,
+//     "children": null,
+//     "label": "Dashboard",
+//     "icon": "fas fa-tachometer-alt"
+
+//   }
+// ]
+
+
+
+2) login
+true or false
+
+
+folder description
+
+->app contains layout
+->layout are the diff pages
+->component is the dashboard setup
+->pages will contain all child pages of dashboard
+->subpage is child of pages
+->redux for state management
+
+
+
+
+
+=> frontend validation :-npm install formik yup
+

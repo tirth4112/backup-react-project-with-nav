@@ -1,0 +1,82 @@
+
+[
+  {
+    "path": "Product",
+    "componentPath": "/page/Product",
+    "isActive": true,
+    "authRequired": true,
+    "label": "Product",
+    "icon": "fas fa-tachometer-alt",
+    "pt":"/product",
+    "children": [
+      {
+        "path": "ProductDetail",
+        "componentPath": "/SubPage/ProductDetail",
+        "isActive": true,
+        "authRequired": true,
+        "label": "Product Detail",
+        "icon": "fas fa-tachometer-alt",
+        "description":"to view product Detail of exesting product",
+        "pt":"/product/ProductDetail",
+
+        "children": [
+          {
+            "path": "ProductSingle",
+            "componentPath": "/SubPage/SaleDetail",
+            "isActive": true,
+            "authRequired": true,
+            "label": "Product Single",
+            "icon": "fas fa-tachometer-alt",
+            "description":"to view product Detail of each product or single product",
+            "pt":"/product/ProductDetail/ProductSingle"
+
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "Sale",
+    "componentPath": "/page/Sale",
+    "isActive": true,
+    "label": "Sale",
+    "icon": "fas fa-tachometer-alt",
+    "authRequired": true,
+    "description":"to view product sale",
+    "pt":"/Sale",
+    "children": [
+      {
+        "path": "SaleDetail",
+        "componentPath": "/SubPage/SaleDetail",
+        "isActive": true,
+        "authRequired": true,
+        "label": "Sale Detail",
+        "icon": "fas fa-tachometer-alt",
+        "description":"to view product sale Detail of exesting product"
+        ,    "pt":"/Sale/SaleDetail"
+
+      }
+    ]
+  },
+  {
+    "path": "Purchase",
+    "componentPath": "/page/Purchase",
+    "isActive": true,
+    "authRequired": true,
+    "label": "Purchase",
+    "icon": "fas fa-tachometer-alt",
+    "description":"to view purchase ",
+    "pt":"/Purchase"
+  },
+  {
+    "path": "",
+    "componentPath": "/page/Dash",
+    "isActive": true,
+    "authRequired": true,
+    "label": "Dashboard",
+    "icon": "fas fa-tachometer-alt",
+    "description":"to go to home page or dashboard",
+    "pt":""
+
+  }
+]

@@ -1,0 +1,110 @@
+/* ApplicationForm.css */
+
+/* Form container */
+.application-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Form header */
+  .form-header {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+    animation: slideInLeft 0.5s ease-in-out;
+  }
+  
+  @keyframes slideInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Form fields */
+  .form-field {
+    margin-bottom: 30px;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  /* Required label */
+  .required-label {
+    font-weight: bold;
+    color: #555;
+    font-size: 16px;
+  }
+  
+  /* Input fields */
+  .input-field {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  /* Radio and checkbox options */
+  .radio-option,
+  .checkbox-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  /* Radio and checkbox labels */
+  .radio-label,
+  .checkbox-label {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Select field */
+  .select-field {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f5f5f5;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  /* Error message */
+  .error-message {
+    color: #ff4444;
+    font-size: 14px;
+    margin-top: 5px;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  /* Submit button */
+  .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+  }  

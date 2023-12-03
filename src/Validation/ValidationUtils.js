@@ -43,7 +43,7 @@ export const checkboxValidation = (fieldName) =>
     return Array.isArray(value) && value.length > 0;
   });
 
-  export const selectValidation = (fieldName) =>
+export const selectValidation = (fieldName) =>
   Yup.string().required(`Please select a ${fieldName}`);
 
 // Map field types to validation functions
@@ -55,7 +55,7 @@ export const fieldTypeToValidation = {
   password: passwordValidation,
   required: requiredValidation,
   url: urlValidation,
-  select:selectValidation,
+  select: selectValidation,
   radio: radioValidation, // Custom radio button validation
   checkbox: checkboxValidation, // Custom checkbox validation
   // Add more field types and validation functions as needed

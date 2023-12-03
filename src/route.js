@@ -5,6 +5,7 @@ import Login from '../src/Layout/Login';
 import AdminMain from '../src/Layout/AdminMain';
 import Inactive from '../src/Layout/Inactive-Page';
 import Error from '../src/Layout/Error'
+import ForgetPassword from '../src/Layout/ForgetPassword'
 const isAuthenticated = sessionStorage.getItem('login') ? JSON.parse(sessionStorage.getItem('login')) : false;
 
 const AuthGuard = ({ children, authRequired }) => {
@@ -82,6 +83,7 @@ const Routing = (props) => {
       {/* </AuthGuard> */}
       <Route path="/inactive-page" element={<Inactive />} />
       <Route path="/Error" element={<Error />} />
+      <Route path="/Forget-password" element={<ForgetPassword />} />
 
       <Route path="*" element={<Navigate to="/Error" />} />
     </Routes>

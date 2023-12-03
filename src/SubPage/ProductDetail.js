@@ -1,5 +1,5 @@
-import DesiginationTable from '../PageComponent/Product-ProductDetail/DesiginationTable';
-import DesiginationForm from '../PageComponent/Product-ProductDetail/DesiginationForm';
+import DesiginationTable from './Product-ProductDetail/DesiginationTable';
+import DesiginationForm from './Product-ProductDetail/DesiginationForm';
 import PageNameNavigate from '../Component/PageNameNavigate';
 import { useDispatch, useSelector } from 'react-redux';
 import { setdesiginationform } from '../redux/actions/productaction';
